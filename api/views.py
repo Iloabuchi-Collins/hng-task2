@@ -57,7 +57,7 @@ class OutputView(generics.GenericAPIView):
                 data = {
                 "slackUsername": "Collins Iloabuchi", 
                 "result": Calculate.subtract(serializer.data['x'], serializer.data['y']),
-                "operation_type": 'addition'
+                "operation_type": 'subtraction'
                     }
                 )
 
@@ -67,7 +67,7 @@ class OutputView(generics.GenericAPIView):
                 data = {
                 "slackUsername": "Collins Iloabuchi", 
                 "result": Calculate.multiply(serializer.data['x'], serializer.data['y']),
-                "operation_type": 'addition'
+                "operation_type": 'multiplication'
                     }
                 )
 
